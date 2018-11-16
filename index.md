@@ -12,16 +12,16 @@ layout: default
 <div class="container text-center">
     <div class="row">
         <div class="col-12 col-md-3">
-            <a href="/Ali" class="btn btn-primary btn-block is-green-background">Ali</a>
+            <a href="/ali" class="btn btn-primary btn-block is-green-background">Ali</a>
         </div>
         <div class="col-12 col-md-3">
-            <a href="/Trevisans" class="btn btn-primary btn-block is-red-background">Trevisans</a>
+            <a href="/trevisans" class="btn btn-primary btn-block is-red-background">Trevisans</a>
         </div>
         <div class="col-12 col-md-3">
-            <a href="/Walters" class="btn btn-primary btn-block is-blue-background">Walters</a>
+            <a href="/walters" class="btn btn-primary btn-block is-blue-background">Walters</a>
         </div>
         <div class="col-12 col-md-3">
-            <a href="/Wards" class="btn btn-primary btn-block is-orange-background">Wards</a>
+            <a href="/wards" class="btn btn-primary btn-block is-orange-background">Wards</a>
         </div>
     </div>
 </div>
