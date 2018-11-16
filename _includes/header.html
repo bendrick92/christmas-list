@@ -1,0 +1,41 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><i class="fas fa-tree fa-md is-green"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    {% if page.active == "ali" %}
+                        <a class="nav-link active" href="/Ali">Ali</a>
+                    {% else %}
+                        <a class="nav-link" href="/Ali">Ali</a>
+                    {% endif %}
+                </li>
+                <li class="nav-item">
+                    {% if page.active == "trevisans" %}
+                        <a class="nav-link active" href="/Trevisans">Trevisans</a>
+                    {% else %}
+                        <a class="nav-link" href="/Trevisans">Trevisans</a>
+                    {% endif %}
+                </li>
+                <li class="nav-item">
+                    {% if page.active == "walters" %}
+                        <a class="nav-link active" href="/Walters">Walters</a>
+                    {% else %}
+                        <a class="nav-link" href="/Walters">Walters</a>
+                    {% endif %}
+                </li>
+                <li class="nav-item">
+                    {% if page.active == "wards" %}
+                        <a class="nav-link active" href="/Wards">Wards</a>
+                    {% else %}
+                        <a class="nav-link" href="/Wards">Wards</a>
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+    </nav>
+</head>

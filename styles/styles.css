@@ -1,0 +1,61 @@
+/* Bootstrap */
+.card {
+    min-height: 100%;
+    margin: 0 !important;
+}
+
+.card img {
+    max-width: 250px !important;
+    height: auto;
+}
+
+.nav-item {
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+/* Colors */
+.is-green {
+    color: #257E05;
+}
+
+.is-red {
+    color: #FF2626;
+}
+
+.is-blue {
+    color: #007BFF;
+}
+
+.is-orange {
+    color: #FF9A1E;
+}
+
+.is-green-background {
+    background-color: #257E05;
+}
+
+.is-red-background {
+    background-color: #FF2626;
+}
+
+.is-blue-background {
+    background-color: #007BFF;
+}
+
+.is-orange-background {
+    background-color: #FF9A1E;
+}
+
+
+
+/* Transformations */
+.btn-block {
+    width: 100%;
+    height: auto;
+    padding: 3rem 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    border: none;
+}
