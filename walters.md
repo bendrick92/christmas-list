@@ -7,10 +7,10 @@ active: walters
 <div class="container">
     <div class="row">
         {% include card.html
-            img="../images/shift_knob.png"
-            title="Billetworkz Shift Knob"
-            body="Blue Cosmic Space/Sphere"
-            url="https://billetworkz.com/collections/subaru-wrx-6-speed/products/blue-cosmic-6-speed-wrx-japanese"
+            img="../images/coin_tray.png"
+            title="Subaru JDM Coin Tray"
+            body=""
+            url="http://subiebros.com/subaru-jdm-coin-tray-fuse-cover/"
         %}
         {% include card.html
             img="../images/barking.png"
